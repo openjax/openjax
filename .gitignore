@@ -1,13 +1,14 @@
+autogen/
 cdm/
 exec/
 io/
+jaxb/
 jci/
 json/
 lang/
 logging/
 math/
 maven/
-measure/
 net/
 security/
 sql/
