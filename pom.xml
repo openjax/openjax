@@ -298,7 +298,7 @@
   </repositories>
   <distributionManagement>
     <repository>
-      <id>repo.fastjax.org/m2</id>
+      <id>repo.fastjax.org</id>
       <name>FastJAX Maven Repository</name>
       <url>file://localhost/var/lib/mvn/org/m2</url>
     </repository>
