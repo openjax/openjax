@@ -1,0 +1,51 @@
+[submodule "autogen"]
+	path = autogen
+	url = ../autogen.git
+[submodule "cdm"]
+	path = cdm
+	url = ../cdm.git
+[submodule "exec"]
+	path = exec
+	url = ../exec.git
+[submodule "io"]
+	path = io
+	url = ../io.git
+[submodule "jaxb"]
+	path = jaxb
+	url = ../jaxb.git
+[submodule "jci"]
+	path = jci
+	url = ../jci.git
+[submodule "json"]
+	path = json
+	url = ../json.git
+[submodule "lang"]
+	path = lang
+	url = ../lang.git
+[submodule "logging"]
+	path = logging
+	url = ../logging.git
+[submodule "math"]
+	path = math
+	url = ../math.git
+[submodule "maven"]
+	path = maven
+	url = ../maven.git
+[submodule "net"]
+	path = net
+	url = ../net.git
+[submodule "security"]
+	path = security
+	url = ../security.git
+[submodule "sql"]
+	path = sql
+	url = ../sql.git
+[submodule "test"]
+	path = test
+	url = ../test.git
+[submodule "util"]
+	path = util
+	url = ../util.git
+[submodule "xml"]
+	path = xml
+	url = ../xml.git
