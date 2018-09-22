@@ -2,7 +2,7 @@
 
 **Simple, high-performance, Java API eXtensions**
 
-FastJAX is a colleciton of modules that supplement Java's standard APIs.
+FastJAX is a collection of modules that supplement Java's standard APIs.
 
 ## Simple
 
