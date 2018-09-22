@@ -1,6 +1,6 @@
 # FastJAX
 
-**Simple, high-performance, JAva eXtensions**
+**Simple, high-performance, Java API eXtensions**
 
 FastJAX is a colleciton of modules that supplement Java's standard APIs.
 
@@ -37,6 +37,6 @@ The APIs are implemented to minimize both process and memory complexity.
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 [codegen]: https://en.wikipedia.org/wiki/Code_generation_(compiler)
-[slf4j]: https://www.slf4j.org/
 [junit]: https://junit.org
 [maven-surefire-plugin]: https://maven.apache.org/surefire/maven-surefire-plugin/
+[slf4j]: https://www.slf4j.org/
