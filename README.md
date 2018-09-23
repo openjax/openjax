@@ -14,7 +14,7 @@ The APIs are implemented to minimize both process and memory complexity.
 
 ## Modules
 
-* **[autogen][autogen]**: Modules that utilize the [Code Generation][codegen] process to obtain better language cohesion, or faster process performance.
+* **[autogen][autogen]**: Modules that utilize the [Code Generation][codegen] process to obtain better language cohesion, and faster runtime performance.
 * **[cdm][cdm]**: _Code Design Model_ An abstraction of the Java programming language, in Java.
 * **[exec][exec]**: APIs for external process execution and environment management.
 * **[io][io]**: APIs that supplement the `java/io` and `java/nio` packages for I/O operations.
