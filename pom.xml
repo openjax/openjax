@@ -94,6 +94,24 @@
     </profile>
   </profiles>
   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>deploy</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <keyname>gpg</keyname>
+          <passphraseServerId>gpg</passphraseServerId>
+        </configuration>
+      </plugin>
+    </plugins>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -135,6 +153,11 @@
               </configuration>
             </execution>
           </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -293,10 +316,15 @@
     </dependencies>
   </dependencyManagement>
   <distributionManagement>
+    <snapshotRepository>
+      <id>sonatype-snapshot</id>
+      <name>Sonatype Snapshot Repository</name>
+      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
     <repository>
-      <id>repo.fastjax.org</id>
-      <name>FastJAX Maven Repository</name>
-      <url>file://localhost/var/lib/mvn/org/m2</url>
+      <id>sonatype-staging</id>
+      <name>Sonatype Staging Repository</name>
+      <url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url>
     </repository>
   </distributionManagement>
 </project>
