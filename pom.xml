@@ -46,6 +46,7 @@
     <module>xml</module>
     <module>test</module>
     <module>util</module>
+    <module>measure</module>
     <module>io</module>
     <module>security</module>
     <module>net</module>

@@ -49,3 +49,6 @@
 [submodule "xml"]
 	path = xml
 	url = ../xml.git
+[submodule "measure"]
+	path = measure
+	url = ../measure
