@@ -160,24 +160,29 @@
           </configuration>
           <dependencies>
             <dependency>
-              <groupId>com.google.code.maven-svn-wagon</groupId>
-              <artifactId>maven-svn-wagon</artifactId>
-              <version>1.4</version>
-            </dependency>
-            <dependency>
               <groupId>org.apache.maven.wagon</groupId>
-              <artifactId>wagon-ssh</artifactId>
+              <artifactId>wagon-webdav-jackrabbit</artifactId>
               <version>2.10</version>
             </dependency>
             <dependency>
-              <groupId>com.jcraft</groupId>
-              <artifactId>jsch</artifactId>
-              <version>0.1.53</version>
+              <groupId>org.apache.maven.wagon</groupId>
+              <artifactId>wagon-file</artifactId>
+              <version>2.10</version>
             </dependency>
             <dependency>
-              <groupId>org.tmatesoft.svnkit</groupId>
-              <artifactId>svnkit</artifactId>
-              <version>1.8.12</version>
+              <groupId>org.apache.maven.wagon</groupId>
+              <artifactId>wagon-http-shared</artifactId>
+              <version>2.10</version>
+            </dependency>
+            <dependency>
+              <groupId>org.apache.maven.wagon</groupId>
+              <artifactId>wagon-http</artifactId>
+              <version>2.10</version>
+            </dependency>
+            <dependency>
+              <groupId>org.apache.maven.wagon</groupId>
+              <artifactId>wagon-provider-api</artifactId>
+              <version>2.10</version>
             </dependency>
           </dependencies>
         </plugin>
