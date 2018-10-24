@@ -89,8 +89,60 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-failsafe-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>integration-test</id>
+                <goals>
+                  <goal>integration-test</goal>
+                  <goal>verify</goal>
+                </goals>
+                <phase>integration-test</phase>
+                <configuration>
+                  <includes>
+                    <include>**/*ITest.java</include>
+                    <include>**/*IntegrationTest.java</include>
+                    <include>**/*IntegrationTestCase.java</include>
+                  </includes>
+                </configuration>
+              </execution>
+            </executions>
           </plugin>
         </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>!maven.rtest.skip</id>
+      <activation>
+        <property>
+          <name>!maven.rtest.skip</name>
+        </property>
+      </activation>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-failsafe-plugin</artifactId>
+              <executions>
+                <execution>
+                  <id>regression-test</id>
+                  <goals>
+                    <goal>integration-test</goal>
+                    <goal>verify</goal>
+                  </goals>
+                  <phase>verify</phase>
+                  <configuration>
+                    <includes>
+                      <include>**/*RTest.java</include>
+                      <include>**/*RegressionTest.java</include>
+                      <include>**/*RegressionTestCase.java</include>
+                    </includes>
+                  </configuration>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </pluginManagement>
       </build>
     </profile>
     <profile>
@@ -163,28 +215,9 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
           <version>2.22.0</version>
-          <executions>
-            <execution>
-              <id>integration-test</id>
-              <goals>
-                <goal>integration-test</goal>
-                <goal>verify</goal>
-              </goals>
-              <configuration>
-                <trimStackTrace>false</trimStackTrace>
-                <systemPropertyVariables>
-                  <integrationTest>true</integrationTest>
-                </systemPropertyVariables>
-                <includes>
-                  <include>**/Test*.java</include>
-                  <include>**/*Test.java</include>
-                  <include>**/*Tests.java</include>
-                  <include>**/*TestCase.java</include>
-                </includes>
-                <groups>org.fastjax.test.IntegrationTest,org.fastjax.test.MixedTest</groups>
-              </configuration>
-            </execution>
-          </executions>
+          <configuration>
+            <trimStackTrace>false</trimStackTrace>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -246,8 +279,19 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.0</version>
           <configuration>
-            <excludedGroups>org.fastjax.test.IntegrationTest</excludedGroups>
             <trimStackTrace>false</trimStackTrace>
+            <includes>
+              <include>**/*Test.java</include>
+              <include>**/*TestCase.java</include>
+            </includes>
+            <excludes>
+              <exclude>**/*ITest.java</exclude>
+              <exclude>**/*IntegrationTest.java</exclude>
+              <exclude>**/*IntegrationTestCase.java</exclude>
+              <exclude>**/*RTest.java</exclude>
+              <exclude>**/*RegressionTest.java</exclude>
+              <exclude>**/*RegressionTestCase.java</exclude>
+            </excludes>
           </configuration>
         </plugin>
         <plugin>
