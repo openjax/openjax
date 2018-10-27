@@ -78,6 +78,17 @@
       </dependencyManagement>
     </profile>
     <profile>
+      <id>maven.test.skip</id>
+      <activation>
+        <property>
+          <name>maven.test.skip</name>
+        </property>
+      </activation>
+      <properties>
+        <maven.itest.skip>true</maven.itest.skip>
+      </properties>
+    </profile>
+    <profile>
       <id>!maven.itest.skip</id>
       <activation>
         <property>
@@ -92,17 +103,8 @@
             <executions>
               <execution>
                 <id>integration-test</id>
-                <goals>
-                  <goal>integration-test</goal>
-                  <goal>verify</goal>
-                </goals>
-                <phase>integration-test</phase>
                 <configuration>
-                  <includes>
-                    <include>**/*ITest.java</include>
-                    <include>**/*IntegrationTest.java</include>
-                    <include>**/*IntegrationTestCase.java</include>
-                  </includes>
+                  <skip>${maven.test.skip}</skip>
                 </configuration>
               </execution>
             </executions>
@@ -126,17 +128,8 @@
               <executions>
                 <execution>
                   <id>regression-test</id>
-                  <goals>
-                    <goal>integration-test</goal>
-                    <goal>verify</goal>
-                  </goals>
-                  <phase>verify</phase>
                   <configuration>
-                    <includes>
-                      <include>**/*RTest.java</include>
-                      <include>**/*RegressionTest.java</include>
-                      <include>**/*RegressionTestCase.java</include>
-                    </includes>
+                    <skip>${maven.itest.skip}</skip>
                   </configuration>
                 </execution>
               </executions>
@@ -196,6 +189,54 @@
     </profile>
   </profiles>
   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+          <trimStackTrace>false</trimStackTrace>
+        </configuration>
+        <executions>
+          <execution>
+            <id>integration-test</id>
+            <goals>
+              <goal>integration-test</goal>
+              <goal>verify</goal>
+            </goals>
+            <phase>integration-test</phase>
+            <configuration>
+              <includes>
+                <include>**/*ITest</include>
+                <include>**/*IntegrationTest</include>
+                <include>**/*IntegrationTestCase</include>
+              </includes>
+              <excludes>
+                <exclude></exclude> <!-- This is necessary for inner classes to be run -->
+              </excludes>
+            </configuration>
+          </execution>
+          <execution>
+            <id>regression-test</id>
+            <goals>
+              <goal>integration-test</goal>
+              <goal>verify</goal>
+            </goals>
+            <phase>verify</phase>
+            <configuration>
+              <includes>
+                <include>**/*RTest</include>
+                <include>**/*RegressionTest</include>
+                <include>**/*RegressionTestCase</include>
+              </includes>
+              <excludes>
+                <exclude></exclude> <!-- This is necessary for inner classes to be run -->
+              </excludes>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -215,9 +256,6 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
           <version>2.22.0</version>
-          <configuration>
-            <trimStackTrace>false</trimStackTrace>
-          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -230,6 +268,7 @@
           <version>2.0.0</version> <!-- v3 clones the src into "its" dir, which breaks everything -->
           <executions>
             <execution>
+              <phase>install</phase>
               <goals>
                 <goal>run</goal>
               </goals>
@@ -238,6 +277,14 @@
                 <streamLogs>true</streamLogs>
                 <showErrors>true</showErrors>
                 <noLog>true</noLog>
+                <properties>
+                  <maven.itest.skip>${maven.itest.skip}</maven.itest.skip>
+                  <maven.rtest.skip>${maven.rtest.skip}</maven.rtest.skip>
+                  <skipTests>${skipTests}</skipTests>
+                </properties>
+                <goals>
+                  <goal>install</goal>
+                </goals>
               </configuration>
             </execution>
           </executions>
@@ -248,6 +295,8 @@
           <version>3.1.0</version>
           <executions>
             <execution>
+              <!-- Move test-jar to verify phase, because integration-test may generate test resources -->
+              <phase>verify</phase>
               <goals>
                 <goal>test-jar</goal>
               </goals>
@@ -273,6 +322,16 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.1.0</version>
+          <executions>
+            <execution>
+              <id>process-test-resources</id>
+              <!-- Move testResources to verify phase, because integration-test may generate test resources -->
+              <phase>verify</phase>
+              <goals>
+                <goal>testResources</goal>
+              </goals>
+            </execution>
+          </executions>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
