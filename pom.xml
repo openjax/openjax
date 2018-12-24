@@ -24,10 +24,10 @@
   <version>1.11.15-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
-  <url>http://www.fastjax.org/</url>
+  <url>https://www.fastjax.org/</url>
   <organization>
     <name>FastJAX</name>
-    <url>http://www.fastjax.org/</url>
+    <url>https://www.fastjax.org/</url>
   </organization>
   <licenses>
     <license>
@@ -62,7 +62,6 @@
   </modules>
   <profiles>
     <profile>
-      <id>tools.jar</id>
       <activation>
         <jdk>(,1.9)</jdk>
       </activation>
@@ -244,6 +243,10 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.7.0</version>
+          <configuration>
+            <source>${maven.compiler.source}</source>
+            <target>${maven.compiler.target}</target>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -308,6 +311,9 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>3.0.1</version>
+          <configuration>
+            <detectLinks>true</detectLinks>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -341,16 +347,16 @@
           <configuration>
             <trimStackTrace>false</trimStackTrace>
             <includes>
-              <include>**/*Test.java</include>
-              <include>**/*TestCase.java</include>
+              <include>**/*Test</include>
+              <include>**/*TestCase</include>
             </includes>
             <excludes>
-              <exclude>**/*ITest.java</exclude>
-              <exclude>**/*IntegrationTest.java</exclude>
-              <exclude>**/*IntegrationTestCase.java</exclude>
-              <exclude>**/*RTest.java</exclude>
-              <exclude>**/*RegressionTest.java</exclude>
-              <exclude>**/*RegressionTestCase.java</exclude>
+              <exclude>**/*ITest</exclude>
+              <exclude>**/*IntegrationTest</exclude>
+              <exclude>**/*IntegrationTestCase</exclude>
+              <exclude>**/*RTest</exclude>
+              <exclude>**/*RegressionTest</exclude>
+              <exclude>**/*RegressionTestCase</exclude>
             </excludes>
           </configuration>
         </plugin>
@@ -414,6 +420,10 @@
     </pluginManagement>
   </build>
   <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+    </dependency>
     <dependency>
       <artifactId>junit</artifactId>
       <groupId>junit</groupId>
