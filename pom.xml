@@ -313,6 +313,9 @@
           <version>3.0.1</version>
           <configuration>
             <detectLinks>true</detectLinks>
+            <links>
+              <link>https://logback.qos.ch/apidocs/</link>
+            </links>
           </configuration>
         </plugin>
         <plugin>
