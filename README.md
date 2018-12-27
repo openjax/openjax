@@ -32,10 +32,6 @@ The APIs are implemented to minimize both process and memory complexity.
 * **[util][util]**: APIs that supplement the `java/util` package with higher-performance alternatives, and simple and useful extensions.
 * **[xml][xml]**: Modules for efficiently reading, writing, and validating XML documents.
 
-### JavaDocs
-
-JavaDocs are available [here](https://www.fastjax.org/javadocs/index.html?overview-summary.html).
-
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
