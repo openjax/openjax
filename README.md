@@ -1,8 +1,8 @@
-# FastJAX
+# OpenJAX Classic
 
 **Simple, high-performance, Java API eXtensions**
 
-FastJAX is a collection of modules that supplement Java's standard APIs.
+OpenJAX Classic is a collection of modules that supplement Java's standard APIs.
 
 ## Simple
 
@@ -25,6 +25,7 @@ The APIs are implemented to minimize both process and memory complexity.
 * **[logging][logging]**: APIs that provide simple _logging_ extensions to [SLF4J][slf4j].
 * **[math][math]**: APIs that supplement the `java/math` package with higher-performance alternatives, and simple and useful extensions.
 * **[maven][maven]**: APIs that supplement Maven's APIs with cohesive abstractions, and simple and useful extensions.
+* **[measure][measure]**: A nimble datatype abstraction that expresses numerical values with units, supporting automatic unit reduction.
 * **[net][net]**: APIs that supplement the `java/net` package with higher-performance alternatives, and simple and useful extensions.
 * **[security][security]**: APIs that provide simple security abstractions.
 * **[sql][sql]**: APIs that supplement the `java/sql` package with simple and useful extensions.
@@ -36,23 +37,24 @@ The APIs are implemented to minimize both process and memory complexity.
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-[autogen]: /../../../../fastjax/autogen
-[cdm]: /../../../../fastjax/cdm
-[exec]: /../../../../fastjax/exec
-[io]: /../../../../fastjax/io
-[jaxb]: /../../../../fastjax/jaxb
-[jci]: /../../../../fastjax/jci
-[json]: /../../../../fastjax/json
-[lang]: /../../../../fastjax/lang
-[logging]: /../../../../fastjax/logging
-[math]: /../../../../fastjax/math
-[maven]: /../../../../fastjax/maven
-[net]: /../../../../fastjax/net
-[security]: /../../../../fastjax/security
-[sql]: /../../../../fastjax/sql
-[test]: /../../../../fastjax/test
-[util]: /../../../../fastjax/util
-[xml]: /../../../../fastjax/xml
+[autogen]: /../../../../openjax/classic-autogen
+[cdm]: /../../../../openjax/classic-cdm
+[exec]: /../../../../openjax/classic-exec
+[io]: /../../../../openjax/classic-io
+[jaxb]: /../../../../openjax/classic-jaxb
+[jci]: /../../../../openjax/classic-jci
+[json]: /../../../../openjax/classic-json
+[lang]: /../../../../openjax/classic-lang
+[logging]: /../../../../openjax/classic-logging
+[math]: /../../../../openjax/classic-math
+[measure]: /../../../../openjax/classic-measure
+[maven]: /../../../../openjax/classic-maven
+[net]: /../../../../openjax/classic-net
+[security]: /../../../../openjax/classic-security
+[sql]: /../../../../openjax/classic-sql
+[test]: /../../../../openjax/classic-test
+[util]: /../../../../openjax/classic-util
+[xml]: /../../../../openjax/classic-xml
 
 [codegen]: https://en.wikipedia.org/wiki/Code_generation_(compiler)
 [junit]: https://junit.org
