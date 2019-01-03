@@ -24,8 +24,8 @@
     <artifactId>openjax</artifactId>
     <version>2.5.3-SNAPSHOT</version>
   </parent>
-  <groupId>org.openjax.classic</groupId>
-  <artifactId>classic</artifactId>
+  <groupId>org.openjax.standard</groupId>
+  <artifactId>standard</artifactId>
   <version>1.11.15-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>

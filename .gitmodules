@@ -1,54 +1,54 @@
 [submodule "autogen"]
   path = autogen
-  url = ../classic-autogen.git
+  url = ../standard-autogen.git
 [submodule "cdm"]
   path = cdm
-  url = ../classic-cdm.git
+  url = ../standard-cdm.git
 [submodule "exec"]
   path = exec
-  url = ../classic-exec.git
+  url = ../standard-exec.git
 [submodule "io"]
   path = io
-  url = ../classic-io.git
+  url = ../standard-io.git
 [submodule "jaxb"]
   path = jaxb
-  url = ../classic-jaxb.git
+  url = ../standard-jaxb.git
 [submodule "jci"]
   path = jci
-  url = ../classic-jci.git
+  url = ../standard-jci.git
 [submodule "json"]
   path = json
-  url = ../classic-json.git
+  url = ../standard-json.git
 [submodule "lang"]
   path = lang
-  url = ../classic-lang.git
+  url = ../standard-lang.git
 [submodule "logging"]
   path = logging
-  url = ../classic-logging.git
+  url = ../standard-logging.git
 [submodule "math"]
   path = math
-  url = ../classic-math.git
+  url = ../standard-math.git
 [submodule "maven"]
   path = maven
-  url = ../classic-maven.git
+  url = ../standard-maven.git
 [submodule "measure"]
   path = measure
-  url = ../classic-measure
+  url = ../standard-measure
 [submodule "net"]
   path = net
-  url = ../classic-net.git
+  url = ../standard-net.git
 [submodule "security"]
   path = security
-  url = ../classic-security.git
+  url = ../standard-security.git
 [submodule "sql"]
   path = sql
-  url = ../classic-sql.git
+  url = ../standard-sql.git
 [submodule "test"]
   path = test
-  url = ../classic-test.git
+  url = ../standard-test.git
 [submodule "util"]
   path = util
-  url = ../classic-util.git
+  url = ../standard-util.git
 [submodule "xml"]
   path = xml
-  url = ../classic-xml.git
+  url = ../standard-xml.git

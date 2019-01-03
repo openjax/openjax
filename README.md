@@ -1,8 +1,8 @@
-# OpenJAX Classic
+# OpenJAX Standard
 
 **Simple, high-performance, Java API eXtensions**
 
-OpenJAX Classic is a collection of modules that supplement Java's standard APIs.
+OpenJAX Standard is a collection of modules that supplement Java's standard APIs.
 
 ## Simple
 
@@ -37,24 +37,24 @@ The APIs are implemented to minimize both process and memory complexity.
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-[autogen]: /../../../../openjax/classic-autogen
-[cdm]: /../../../../openjax/classic-cdm
-[exec]: /../../../../openjax/classic-exec
-[io]: /../../../../openjax/classic-io
-[jaxb]: /../../../../openjax/classic-jaxb
-[jci]: /../../../../openjax/classic-jci
-[json]: /../../../../openjax/classic-json
-[lang]: /../../../../openjax/classic-lang
-[logging]: /../../../../openjax/classic-logging
-[math]: /../../../../openjax/classic-math
-[measure]: /../../../../openjax/classic-measure
-[maven]: /../../../../openjax/classic-maven
-[net]: /../../../../openjax/classic-net
-[security]: /../../../../openjax/classic-security
-[sql]: /../../../../openjax/classic-sql
-[test]: /../../../../openjax/classic-test
-[util]: /../../../../openjax/classic-util
-[xml]: /../../../../openjax/classic-xml
+[autogen]: /../../../../openjax/standard-autogen
+[cdm]: /../../../../openjax/standard-cdm
+[exec]: /../../../../openjax/standard-exec
+[io]: /../../../../openjax/standard-io
+[jaxb]: /../../../../openjax/standard-jaxb
+[jci]: /../../../../openjax/standard-jci
+[json]: /../../../../openjax/standard-json
+[lang]: /../../../../openjax/standard-lang
+[logging]: /../../../../openjax/standard-logging
+[math]: /../../../../openjax/standard-math
+[maven]: /../../../../openjax/standard-maven
+[measure]: /../../../../openjax/standard-measure
+[net]: /../../../../openjax/standard-net
+[security]: /../../../../openjax/standard-security
+[sql]: /../../../../openjax/standard-sql
+[test]: /../../../../openjax/standard-test
+[util]: /../../../../openjax/standard-util
+[xml]: /../../../../openjax/standard-xml
 
 [codegen]: https://en.wikipedia.org/wiki/Code_generation_(compiler)
 [junit]: https://junit.org
