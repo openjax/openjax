@@ -1,6 +1,8 @@
 # OpenJAX Standard
 
-**Simple, high-performance, Java API eXtensions**
+> Simple, high-performance, Java API eXtensions
+
+[![Build Status](https://travis-ci.org/openjax/standard.png)](https://travis-ci.org/openjax/standard)
 
 OpenJAX Standard is a collection of modules that supplement Java's standard APIs.
 
