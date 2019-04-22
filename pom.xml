@@ -29,7 +29,7 @@
   <version>1.11.15-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
-  <url>https://common.openjax.org/</url>
+  <url>https://standard.openjax.org/</url>
   <modules>
     <module>logging</module>
     <module>lang</module>
