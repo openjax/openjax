@@ -40,6 +40,7 @@
     <module>io</module>
     <module>security</module>
     <module>net</module>
+    <module>mail</module>
     <module>maven</module>
     <module>autogen</module>
     <module>cdm</module>
