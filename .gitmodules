@@ -25,6 +25,9 @@
 [submodule "logging"]
   path = logging
   url = ../standard-logging.git
+[submodule "mail"]
+	path = mail
+	url = ../standard-mail.git
 [submodule "math"]
   path = math
   url = ../standard-math.git
