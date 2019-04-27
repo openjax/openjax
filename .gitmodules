@@ -1,5 +1,5 @@
 [submodule "autogen"]
-  path = autogen
+	path = codegen
   url = ../standard-autogen.git
 [submodule "cdm"]
   path = cdm

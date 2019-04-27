@@ -41,7 +41,7 @@
     <module>net</module>
     <module>mail</module>
     <module>maven</module>
-    <module>autogen</module>
+    <module>codegen</module>
     <module>cdm</module>
     <module>jci</module>
     <module>lang</module>

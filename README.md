@@ -19,7 +19,7 @@ The APIs are implemented to minimize both process and memory complexity.
 
 ## Modules
 
-* **[autogen][autogen]**: Modules that utilize the [Code Generation][codegen] process to obtain better language cohesion, and faster runtime performance.
+* **[codegen][codegen]**: Modules that utilize the [Code Generation][codegen] process to obtain better language cohesion, and faster runtime performance.
 * **[cdm][cdm]**: _Code Design Model_ An abstraction of the Java programming language, in Java.
 * **[exec][exec]**: APIs for external process execution and environment management.
 * **[io][io]**: APIs that supplement the `java/io` and `java/nio` packages for I/O operations.
@@ -42,7 +42,7 @@ The APIs are implemented to minimize both process and memory complexity.
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-[autogen]: /../../../../openjax/standard-autogen
+[codegen]: /../../../../openjax/standard-codegen
 [cdm]: /../../../../openjax/standard-cdm
 [exec]: /../../../../openjax/standard-exec
 [io]: /../../../../openjax/standard-io
