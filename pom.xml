@@ -32,7 +32,6 @@
   <url>https://standard.openjax.org/</url>
   <modules>
     <module>logging</module>
-    <module>lang</module>
     <module>xml</module>
     <module>test</module>
     <module>util</module>
@@ -44,11 +43,12 @@
     <module>maven</module>
     <module>autogen</module>
     <module>cdm</module>
+    <module>jci</module>
     <module>exec</module>
     <module>jaxb</module>
-    <module>jci</module>
     <module>json</module>
     <module>math</module>
     <module>sql</module>
+    <module>lang</module>
   </modules>
 </project>
