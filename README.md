@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/openjax/standard.png)](https://travis-ci.org/openjax/standard)
 [![Coverage Status](https://coveralls.io/repos/github/openjax/standard/badge.svg)](https://coveralls.io/github/openjax/standard)
+[![Javadocs](https://www.javadoc.io/badge/org.openjax.standard/standard.svg)](https://www.javadoc.io/doc/org.openjax.standard/standard)
+[![Released Version](https://img.shields.io/maven-central/v/org.openjax.standard/standard.svg)](https://mvnrepository.com/artifact/org.openjax.standard/standard)
 
 OpenJAX Standard is a collection of modules that supplement Java's standard APIs.
 
