@@ -44,11 +44,11 @@
     <module>autogen</module>
     <module>cdm</module>
     <module>jci</module>
+    <module>lang</module>
     <module>exec</module>
     <module>jaxb</module>
     <module>json</module>
     <module>math</module>
     <module>sql</module>
-    <module>lang</module>
   </modules>
 </project>
