@@ -24,12 +24,12 @@
     <artifactId>openjax</artifactId>
     <version>2.5.3-SNAPSHOT</version>
   </parent>
-  <groupId>org.openjax.standard</groupId>
-  <artifactId>standard</artifactId>
+  <groupId>org.openjax.ext</groupId>
+  <artifactId>ext</artifactId>
   <version>1.11.15-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
-  <url>https://standard.openjax.org/</url>
+  <url>https://ext.openjax.org/</url>
   <modules>
     <module>logging</module>
     <module>xml</module>

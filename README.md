@@ -1,13 +1,13 @@
-# OpenJAX Standard
+# OpenJAX Extensions
 
-> Simple, high-performance, Java API eXtensions
+> Simple, high-performance, Java API Extensions
 
-[![Build Status](https://travis-ci.org/openjax/standard.png)](https://travis-ci.org/openjax/standard)
-[![Coverage Status](https://coveralls.io/repos/github/openjax/standard/badge.svg)](https://coveralls.io/github/openjax/standard)
-[![Javadocs](https://www.javadoc.io/badge/org.openjax.standard/standard.svg)](https://www.javadoc.io/doc/org.openjax.standard/standard)
-[![Released Version](https://img.shields.io/maven-central/v/org.openjax.standard/standard.svg)](https://mvnrepository.com/artifact/org.openjax.standard/standard)
+[![Build Status](https://travis-ci.org/openjax/ext.png)](https://travis-ci.org/openjax/ext)
+[![Coverage Status](https://coveralls.io/repos/github/openjax/ext/badge.svg)](https://coveralls.io/github/openjax/ext)
+[![Javadocs](https://www.javadoc.io/badge/org.openjax.ext/ext.svg)](https://www.javadoc.io/doc/org.openjax.ext/ext)
+[![Released Version](https://img.shields.io/maven-central/v/org.openjax.ext/ext.svg)](https://mvnrepository.com/artifact/org.openjax.ext/ext)
 
-OpenJAX Standard is a collection of modules that supplement Java's standard APIs.
+OpenJAX Extensions is a collection of modules that supplement Java's standard APIs.
 
 ## Simple
 
@@ -42,24 +42,24 @@ The APIs are implemented to minimize both process and memory complexity.
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-[codegen]: /../../../../openjax/standard-codegen
-[cdm]: /../../../../openjax/standard-cdm
-[exec]: /../../../../openjax/standard-exec
-[io]: /../../../../openjax/standard-io
-[jaxb]: /../../../../openjax/standard-jaxb
-[jci]: /../../../../openjax/standard-jci
-[json]: /../../../../openjax/standard-json
-[lang]: /../../../../openjax/standard-lang
-[logging]: /../../../../openjax/standard-logging
-[math]: /../../../../openjax/standard-math
-[maven]: /../../../../openjax/standard-maven
-[measure]: /../../../../openjax/standard-measure
-[net]: /../../../../openjax/standard-net
-[security]: /../../../../openjax/standard-security
-[sql]: /../../../../openjax/standard-sql
-[test]: /../../../../openjax/standard-test
-[util]: /../../../../openjax/standard-util
-[xml]: /../../../../openjax/standard-xml
+[codegen]: /../../../../openjax/ext-codegen
+[cdm]: /../../../../openjax/ext-cdm
+[exec]: /../../../../openjax/ext-exec
+[io]: /../../../../openjax/ext-io
+[jaxb]: /../../../../openjax/ext-jaxb
+[jci]: /../../../../openjax/ext-jci
+[json]: /../../../../openjax/ext-json
+[lang]: /../../../../openjax/ext-lang
+[logging]: /../../../../openjax/ext-logging
+[math]: /../../../../openjax/ext-math
+[maven]: /../../../../openjax/ext-maven
+[measure]: /../../../../openjax/ext-measure
+[net]: /../../../../openjax/ext-net
+[security]: /../../../../openjax/ext-security
+[sql]: /../../../../openjax/ext-sql
+[test]: /../../../../openjax/ext-test
+[util]: /../../../../openjax/ext-util
+[xml]: /../../../../openjax/ext-xml
 
 [codegen]: https://en.wikipedia.org/wiki/Code_generation_(compiler)
 [junit]: https://junit.org
