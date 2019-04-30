@@ -1,57 +1,69 @@
-[submodule "autogen"]
-	path = codegen
-  url = ../standard-autogen.git
 [submodule "cdm"]
   path = cdm
-  url = ../standard-cdm.git
+  url = ../ext-cdm.git
+[submodule "cli"]
+	path = cli
+	url = ../ext-cli.git
+[submodule "codegen"]
+	path = codegen
+  url = ../ext-codegen.git
+[submodule "dbcp"]
+	path = dbcp
+	url = ../ext-dbcp.git
 [submodule "exec"]
   path = exec
-  url = ../standard-exec.git
+  url = ../ext-exec.git
+[submodule "expect"]
+	path = expect
+	url = ../ext-expect.git
 [submodule "io"]
   path = io
-  url = ../standard-io.git
+  url = ../ext-io.git
 [submodule "jaxb"]
   path = jaxb
-  url = ../standard-jaxb.git
+  url = ../ext-jaxb.git
 [submodule "jci"]
   path = jci
-  url = ../standard-jci.git
+  url = ../ext-jci.git
+[submodule "jetty"]
+	path = jetty
+	url = ../ext-jetty.git
 [submodule "json"]
   path = json
-  url = ../standard-json.git
+  url = ../ext-json.git
 [submodule "lang"]
   path = lang
-  url = ../standard-lang.git
+  url = ../ext-lang.git
 [submodule "logging"]
   path = logging
-  url = ../standard-logging.git
+  url = ../ext-logging.git
 [submodule "mail"]
 	path = mail
-	url = ../standard-mail.git
+	url = ../ext-mail.git
 [submodule "math"]
   path = math
-  url = ../standard-math.git
+  url = ../ext-math.git
 [submodule "maven"]
   path = maven
-  url = ../standard-maven.git
+  url = ../ext-maven.git
 [submodule "measure"]
   path = measure
-  url = ../standard-measure
+  url = ../ext-measure
 [submodule "net"]
   path = net
-  url = ../standard-net.git
+  url = ../ext-net.git
 [submodule "security"]
   path = security
-  url = ../standard-security.git
+  url = ../ext-security.git
 [submodule "sql"]
   path = sql
-  url = ../standard-sql.git
+  url = ../ext-sql.git
 [submodule "test"]
   path = test
-  url = ../standard-test.git
+  url = ../ext-test.git
 [submodule "util"]
   path = util
-  url = ../standard-util.git
+  url = ../ext-util.git
 [submodule "xml"]
   path = xml
-  url = ../standard-xml.git
+  url = ../ext-xml.git

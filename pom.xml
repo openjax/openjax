@@ -50,5 +50,10 @@
     <module>json</module>
     <module>math</module>
     <module>sql</module>
+    <module>cli</module>
+    <module>expect</module>
+    <module>jetty</module>
+
+    <module>dbcp</module>
   </modules>
 </project>

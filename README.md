@@ -7,7 +7,7 @@
 [![Javadocs](https://www.javadoc.io/badge/org.openjax.ext/ext.svg)](https://www.javadoc.io/doc/org.openjax.ext/ext)
 [![Released Version](https://img.shields.io/maven-central/v/org.openjax.ext/ext.svg)](https://mvnrepository.com/artifact/org.openjax.ext/ext)
 
-OpenJAX Extensions is a collection of modules that supplement Java's standard APIs.
+OpenJAX Extensions is a collection of modules that supplement Java's APIs.
 
 ## Simple
 
@@ -19,12 +19,16 @@ The APIs are implemented to minimize both process and memory complexity.
 
 ## Modules
 
-* **[codegen][codegen]**: Modules that utilize the [Code Generation][codegen] process to obtain better language cohesion, and faster runtime performance.
 * **[cdm][cdm]**: _Code Design Model_ An abstraction of the Java programming language, in Java.
+* **[cli][cli]**: Simple API to specify and process arguments on the Command Line Interface.
+* **[codegen][codegen]**: Modules that utilize the [Code Generation][codegen] process to obtain better language cohesion, and faster runtime performance.
+* **[dbcp][dbcp]**: Simple API to describe and initialize a Database Connection Pool in JDBC.
 * **[exec][exec]**: APIs for external process execution and environment management.
+* **[expect][expect]**: A port of [Tcl's Expect][expect2] that provides a Java API to talk to interactive programs according to a script.
 * **[io][io]**: APIs that supplement the `java/io` and `java/nio` packages for I/O operations.
 * **[jaxb][jaxb]**: Modules that supplement JAXB with cohesive and high-performance APIs and tools.
 * **[jci][jci]**: _Java Compiler Interface_ An implementation of an in-memory-compiler.
+* **[jetty][jetty]**: Light-weight extensions to [Jetty][jetty2] that provide simple and convenient wrappers for common use cases.
 * **[json][json]**: APIs for efficiently reading and parsing JSON documents.
 * **[lang][lang]**: APIs that supplement the `java/lang` package with simple and useful extensions.
 * **[logging][logging]**: APIs that provide simple _logging_ extensions to [SLF4J][slf4j].
@@ -42,12 +46,16 @@ The APIs are implemented to minimize both process and memory complexity.
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-[codegen]: /../../../../openjax/ext-codegen
 [cdm]: /../../../../openjax/ext-cdm
+[cli]: /../../../../openjax/ext-cli
+[codegen]: /../../../../openjax/ext-codegen
+[dbcp]: /../../../../openjax/ext-dbcp
 [exec]: /../../../../openjax/ext-exec
+[expect]: /../../../../openjax/ext-expect
 [io]: /../../../../openjax/ext-io
 [jaxb]: /../../../../openjax/ext-jaxb
 [jci]: /../../../../openjax/ext-jci
+[jetty]: /../../../../openjax/ext-jetty
 [json]: /../../../../openjax/ext-json
 [lang]: /../../../../openjax/ext-lang
 [logging]: /../../../../openjax/ext-logging
@@ -62,6 +70,8 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 [xml]: /../../../../openjax/ext-xml
 
 [codegen]: https://en.wikipedia.org/wiki/Code_generation_(compiler)
+[expect2]: https://en.wikipedia.org/wiki/Expect
+[jetty2]: https://www.eclipse.org/jetty/
 [junit]: https://junit.org
 [maven-surefire-plugin]: https://maven.apache.org/surefire/maven-surefire-plugin/
 [slf4j]: https://www.slf4j.org/
