@@ -28,8 +28,11 @@
   <artifactId>ext</artifactId>
   <version>1.11.15-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>${project.groupId}:${project.artifactId}</name>
   <url>https://ext.openjax.org/</url>
+  <name>OpenJAX Extensions</name>
+  <description>
+    OpenJAX Extensions is a collection of modules that supplement Java's APIs.
+  </description>
   <modules>
     <module>logging</module>
     <module>xml</module>
@@ -53,7 +56,6 @@
     <module>cli</module>
     <module>expect</module>
     <module>jetty</module>
-
     <module>dbcp</module>
   </modules>
 </project>
