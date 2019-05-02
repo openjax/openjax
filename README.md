@@ -1,13 +1,13 @@
-# OpenJAX Extensions
+# OpenJAX
 
 > Simple, high-performance, Java API Extensions
 
-[![Build Status](https://travis-ci.org/openjax/ext.png)](https://travis-ci.org/openjax/ext)
-[![Coverage Status](https://coveralls.io/repos/github/openjax/ext/badge.svg)](https://coveralls.io/github/openjax/ext)
-[![Javadocs](https://www.javadoc.io/badge/org.openjax.ext/ext.svg)](https://www.javadoc.io/doc/org.openjax.ext/ext)
-[![Released Version](https://img.shields.io/maven-central/v/org.openjax.ext/ext.svg)](https://mvnrepository.com/artifact/org.openjax.ext/ext)
+[![Build Status](https://travis-ci.org/openjax/openjax.png)](https://travis-ci.org/openjax/openjax)
+[![Coverage Status](https://coveralls.io/repos/github/openjax/openjax/badge.svg)](https://coveralls.io/github/openjax/openjax)
+[![Javadocs](https://www.javadoc.io/badge/org.openjax/openjax.svg)](https://www.javadoc.io/doc/org.openjax/openjax)
+[![Released Version](https://img.shields.io/maven-central/v/org.openjax/openjax.svg)](https://mvnrepository.com/artifact/org.openjax/openjax)
 
-OpenJAX Extensions is a collection of modules that supplement Java's APIs.
+OpenJAX is a collection of modules that supplement Java's APIs.
 
 ## Simple
 
@@ -46,28 +46,28 @@ The APIs are implemented to minimize both process and memory complexity.
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-[cdm]: /../../../../openjax/ext-cdm
-[cli]: /../../../../openjax/ext-cli
-[codegen]: /../../../../openjax/ext-codegen
-[dbcp]: /../../../../openjax/ext-dbcp
-[exec]: /../../../../openjax/ext-exec
-[expect]: /../../../../openjax/ext-expect
-[io]: /../../../../openjax/ext-io
-[jaxb]: /../../../../openjax/ext-jaxb
-[jci]: /../../../../openjax/ext-jci
-[jetty]: /../../../../openjax/ext-jetty
-[json]: /../../../../openjax/ext-json
-[lang]: /../../../../openjax/ext-lang
-[logging]: /../../../../openjax/ext-logging
-[math]: /../../../../openjax/ext-math
-[maven]: /../../../../openjax/ext-maven
-[measure]: /../../../../openjax/ext-measure
-[net]: /../../../../openjax/ext-net
-[security]: /../../../../openjax/ext-security
-[sql]: /../../../../openjax/ext-sql
-[test]: /../../../../openjax/ext-test
-[util]: /../../../../openjax/ext-util
-[xml]: /../../../../openjax/ext-xml
+[cdm]: /../../../../openjax/cdm
+[cli]: /../../../../openjax/cli
+[codegen]: /../../../../openjax/codegen
+[dbcp]: /../../../../openjax/dbcp
+[exec]: /../../../../openjax/exec
+[expect]: /../../../../openjax/expect
+[io]: /../../../../openjax/io
+[jaxb]: /../../../../openjax/jaxb
+[jci]: /../../../../openjax/jci
+[jetty]: /../../../../openjax/jetty
+[json]: /../../../../openjax/json
+[lang]: /../../../../openjax/lang
+[logging]: /../../../../openjax/logging
+[math]: /../../../../openjax/math
+[maven]: /../../../../openjax/maven
+[measure]: /../../../../openjax/measure
+[net]: /../../../../openjax/net
+[security]: /../../../../openjax/security
+[sql]: /../../../../openjax/sql
+[test]: /../../../../openjax/test
+[util]: /../../../../openjax/util
+[xml]: /../../../../openjax/xml
 
 [codegen]: https://en.wikipedia.org/wiki/Code_generation_(compiler)
 [expect2]: https://en.wikipedia.org/wiki/Expect
