@@ -1,36 +1,36 @@
 [submodule "cdm"]
   path = cdm
-  url = ../ext-cdm.git
+  url = ../cdm.git
 [submodule "cli"]
 	path = cli
-	url = ../ext-cli.git
+	url = ../cli.git
 [submodule "codegen"]
 	path = codegen
-  url = ../ext-codegen.git
+  url = ../codegen.git
 [submodule "dbcp"]
 	path = dbcp
-	url = ../ext-dbcp.git
+	url = ../dbcp.git
 [submodule "expect"]
 	path = expect
-	url = ../ext-expect.git
+	url = ../expect.git
 [submodule "jaxb"]
   path = jaxb
-  url = ../ext-jaxb.git
+  url = ../jaxb.git
 [submodule "jetty"]
 	path = jetty
-	url = ../ext-jetty.git
+	url = ../jetty.git
 [submodule "json"]
   path = json
-  url = ../ext-json.git
+  url = ../json.git
 [submodule "maven"]
   path = maven
-  url = ../ext-maven.git
+  url = ../maven.git
 [submodule "measure"]
   path = measure
-  url = ../ext-measure
+  url = ../measure
 [submodule "security"]
   path = security
-  url = ../ext-security.git
+  url = ../security.git
 [submodule "xml"]
   path = xml
-  url = ../ext-xml.git
+  url = ../xml.git
