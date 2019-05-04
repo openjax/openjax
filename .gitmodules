@@ -10,60 +10,27 @@
 [submodule "dbcp"]
 	path = dbcp
 	url = ../ext-dbcp.git
-[submodule "exec"]
-  path = exec
-  url = ../ext-exec.git
 [submodule "expect"]
 	path = expect
 	url = ../ext-expect.git
-[submodule "io"]
-  path = io
-  url = ../ext-io.git
 [submodule "jaxb"]
   path = jaxb
   url = ../ext-jaxb.git
-[submodule "jci"]
-  path = jci
-  url = ../ext-jci.git
 [submodule "jetty"]
 	path = jetty
 	url = ../ext-jetty.git
 [submodule "json"]
   path = json
   url = ../ext-json.git
-[submodule "lang"]
-  path = lang
-  url = ../ext-lang.git
-[submodule "logging"]
-  path = logging
-  url = ../ext-logging.git
-[submodule "mail"]
-	path = mail
-	url = ../ext-mail.git
-[submodule "math"]
-  path = math
-  url = ../ext-math.git
 [submodule "maven"]
   path = maven
   url = ../ext-maven.git
 [submodule "measure"]
   path = measure
   url = ../ext-measure
-[submodule "net"]
-  path = net
-  url = ../ext-net.git
 [submodule "security"]
   path = security
   url = ../ext-security.git
-[submodule "sql"]
-  path = sql
-  url = ../ext-sql.git
-[submodule "test"]
-  path = test
-  url = ../ext-test.git
-[submodule "util"]
-  path = util
-  url = ../ext-util.git
 [submodule "xml"]
   path = xml
   url = ../ext-xml.git

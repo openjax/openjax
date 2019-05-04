@@ -38,25 +38,14 @@
     <url>https://www.openjax.org/</url>
   </organization>
   <modules>
-    <module>logging</module>
     <module>xml</module>
-    <module>test</module>
-    <module>util</module>
-    <module>measure</module>
-    <module>io</module>
     <module>security</module>
-    <module>net</module>
-    <module>mail</module>
+    <module>measure</module>
     <module>maven</module>
     <module>codegen</module>
     <module>cdm</module>
-    <module>jci</module>
-    <module>lang</module>
-    <module>exec</module>
     <module>jaxb</module>
     <module>json</module>
-    <module>math</module>
-    <module>sql</module>
     <module>cli</module>
     <module>expect</module>
     <module>jetty</module>
