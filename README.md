@@ -1,13 +1,11 @@
 # OpenJAX
 
-> Convenient extensions to common Java architectures
-
 [![Build Status](https://travis-ci.org/openjax/openjax.png)](https://travis-ci.org/openjax/openjax)
 [![Coverage Status](https://coveralls.io/repos/github/openjax/openjax/badge.svg)](https://coveralls.io/github/openjax/openjax)
 [![Javadocs](https://www.javadoc.io/badge/org.openjax/openjax.svg)](https://www.javadoc.io/doc/org.openjax/openjax)
 [![Released Version](https://img.shields.io/maven-central/v/org.openjax/openjax.svg)](https://mvnrepository.com/artifact/org.openjax/openjax)
 
-OpenJAX is a collection of modules that supplment common Java architectures.
+OpenJAX is a collection of modules that provide convenient extensions to common Java architectures.
 
 ## Modules
 
