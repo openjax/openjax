@@ -24,9 +24,9 @@ script:
       [ "$TRAVIS_BRANCH" = "master" ] &&
       [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
     sh -c "$SIGNING_KEY" | $GPG_EXECUTABLE --fast-import &> /dev/null &&
-    mvn -e -U -DskipRTests -DrepoToken=$REPO_TOKEN clean deploy -P javadoc,report,deploy;
+    mvn -N -e -U -DskipRTests -DrepoToken=$REPO_TOKEN clean deploy -P deploy;
   else
-    mvn -e -U -DskipRTests clean install;
+    mvn -N -e -U -DskipRTests clean install;
   fi'
 cache:
   directories:
