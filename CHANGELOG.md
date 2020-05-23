@@ -4,7 +4,7 @@
 * Upgrade `org.openjax:cdm:0.0.8` to `0.0.9`.
 * Upgrade `org.openjax:cli:1.1.8` to `1.1.9`.
 * Upgrade `org.openjax:codegen:0.2.4` to `0.2.5`.
-* Upgrade `org.openjax:dbcp:1.0.5` to `1.0.0`.
+* Upgrade `org.openjax:dbcp:1.0.5` to `1.1.0`.
 * Upgrade `org.openjax:expect:0.2.13` to `0.2.14`.
 * Upgrade `org.openjax:jaxb:0.8.2` to `0.8.5`.
 * Upgrade `org.openjax:jetty:9.4.18` to `9.4.19`.
