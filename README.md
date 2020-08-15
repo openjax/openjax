@@ -1,9 +1,9 @@
 # OpenJAX
 
-[![Build Status](https://travis-ci.org/openjax/openjax.svg?1)](https://travis-ci.org/openjax/openjax)
-[![Coverage Status](https://coveralls.io/repos/github/openjax/openjax/badge.svg?1)](https://coveralls.io/github/openjax/openjax)
-[![Javadocs](https://www.javadoc.io/badge/org.openjax/openjax.svg?1)](https://www.javadoc.io/doc/org.openjax/openjax)
-[![Released Version](https://img.shields.io/maven-central/v/org.openjax/openjax.svg?1)](https://mvnrepository.com/artifact/org.openjax/openjax)
+[![Build Status](https://travis-ci.org/openjax/openjax.svg?branch=master)](https://travis-ci.org/openjax/openjax)
+[![Coverage Status](https://coveralls.io/repos/github/openjax/openjax/badge.svg)](https://coveralls.io/github/openjax/openjax)
+[![Javadocs](https://www.javadoc.io/badge/org.openjax/openjax.svg)](https://www.javadoc.io/doc/org.openjax/openjax)
+[![Released Version](https://img.shields.io/maven-central/v/org.openjax/openjax.svg)](https://mvnrepository.com/artifact/org.openjax/openjax)
 ![Snapshot Version](https://img.shields.io/nexus/s/org.openjax/openjax?label=maven-snapshot&server=https%3A%2F%2Foss.sonatype.org)
 
 OpenJAX is a collection of modules that provide convenient extensions to common Java architectures.
