@@ -13,6 +13,9 @@
 [submodule "expect"]
 	path = expect
 	url = ../expect.git
+[submodule "geolite2"]
+	path = geolite2
+	url = ../geolite2.git
 [submodule "jaxb"]
   path = jaxb
   url = ../jaxb.git

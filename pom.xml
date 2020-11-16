@@ -59,6 +59,7 @@
   </developers>
   <modules>
     <module>xml</module>
+    <module>geolite2</module>
     <module>security</module>
     <module>measure</module>
     <module>maven</module>
