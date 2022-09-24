@@ -1,6 +1,6 @@
 # OpenJAX
 
-[![Build Status](https://travis-ci.org/openjax/openjax.svg?branch=master)](https://travis-ci.org/openjax/openjax)
+[![Build Status](https://github.com/openjax/openjax/actions/workflows/build.yml/badge.svg)](https://github.com/openjax/openjax/actions/workflows/build.yml)
 [![Coverage Status](https://coveralls.io/repos/github/openjax/openjax/badge.svg)](https://coveralls.io/github/openjax/openjax)
 [![Javadocs](https://www.javadoc.io/badge/org.openjax/openjax.svg)](https://www.javadoc.io/doc/org.openjax/openjax)
 [![Released Version](https://img.shields.io/maven-central/v/org.openjax/openjax.svg)](https://mvnrepository.com/artifact/org.openjax/openjax)
