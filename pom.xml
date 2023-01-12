@@ -65,10 +65,12 @@
     <module>maven</module>
     <module>codegen</module>
     <module>cdm</module>
+    <!--module>cuid2</module-->
     <module>jaxb</module>
     <module>json</module>
     <module>cli</module>
     <module>expect</module>
+    <module>eclipse</module>
     <module>jetty</module>
     <module>dbcp</module>
   </modules>
