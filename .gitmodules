@@ -40,3 +40,6 @@
 [submodule "xml"]
   path = xml
   url = ../xml.git
+[submodule "eclipse"]
+	path = eclipse
+	url = ../eclipse.git
