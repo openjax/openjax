@@ -1,3 +1,6 @@
+[submodule "btree"]
+	path = btree
+	url = ../btree.git
 [submodule "cdm"]
   path = cdm
   url = ../cdm.git

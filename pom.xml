@@ -58,6 +58,7 @@
     </developer>
   </developers>
   <modules>
+    <module>btree</module>
     <module>xml</module>
     <module>geolite2</module>
     <module>security</module>
@@ -65,7 +66,6 @@
     <module>maven</module>
     <module>codegen</module>
     <module>cdm</module>
-    <!--module>cuid2</module-->
     <module>jaxb</module>
     <module>json</module>
     <module>cli</module>
