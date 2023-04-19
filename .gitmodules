@@ -13,6 +13,9 @@
 [submodule "dbcp"]
 	path = dbcp
 	url = ../dbcp.git
+[submodule "eclipse"]
+  path = eclipse
+  url = ../eclipse.git
 [submodule "expect"]
 	path = expect
 	url = ../expect.git
@@ -40,6 +43,3 @@
 [submodule "xml"]
   path = xml
   url = ../xml.git
-[submodule "eclipse"]
-	path = eclipse
-	url = ../eclipse.git
