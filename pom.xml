@@ -58,7 +58,7 @@
     </developer>
   </developers>
   <modules>
-    <module>btree</module>
+    <module>binarytree</module>
     <module>xml</module>
     <module>geolite2</module>
     <module>security</module>
