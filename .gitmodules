@@ -1,6 +1,6 @@
-[submodule "btree"]
-	path = btree
-	url = ../btree.git
+[submodule "binarytree"]
+  path = binarytree
+  url = ../binarytree
 [submodule "cdm"]
   path = cdm
   url = ../cdm.git
