@@ -71,14 +71,14 @@
     <module>cli</module>
     <module>expect</module>
     <module>eclipse</module>
-    <module>jetty</module>
+    <module>esc</module>
     <module>dbcp</module>
   </modules>
   <build>
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>org.safris.maven</groupId>
+          <groupId>org.entinae</groupId>
           <artifactId>coverallsio-maven-plugin</artifactId>
           <configuration>
             <skipModule>openjax</skipModule>

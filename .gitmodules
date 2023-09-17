@@ -16,6 +16,9 @@
 [submodule "eclipse"]
   path = eclipse
   url = ../eclipse.git
+[submodule "esc"]
+	path = esc
+	url = ../esc.git
 [submodule "expect"]
 	path = expect
 	url = ../expect.git
@@ -25,9 +28,6 @@
 [submodule "jaxb"]
   path = jaxb
   url = ../jaxb.git
-[submodule "jetty"]
-	path = jetty
-	url = ../jetty.git
 [submodule "json"]
   path = json
   url = ../json.git
