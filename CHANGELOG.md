@@ -1,6 +1,22 @@
 # Changes by Version
 
-## [v2.5.7-SNAPSHOT](https://github.com/libj/util/compare/d528383e37bb8bc56b37e165c1cb266f733b671e..HEAD)
+## [v2.5.8-SNAPSHOT](https://github.com/libj/util/compare/8a98f0500832d35640dc3abbd93e81d4085e89ea..HEAD)
+
+## [v2.5.7](https://github.com/libj/util/compare/d528383e37bb8bc56b37e165c1cb266f733b671e..8a98f0500832d35640dc3abbd93e81d4085e89ea) (2024-02-27)
+* Upgrade `org.openjax:cdm:0.0.10` to `0.0.11`.
+* Upgrade `org.openjax:cli:1.1.10` to `1.1.11`.
+* Upgrade `org.openjax:codegen:0.2.6` to `0.2.7`.
+* Upgrade `org.openjax:dbcp:1.2.0` to `1.2.1`.
+* Updrage `org.openjax:eclipse:0.1.0` to `0.1.1`.
+* Upgrade `org.openjax:expect:0.2.15` to `0.2.16`.
+* Upgrade `org.openjax:geolite2:0.4.1` to `0.4.2`.
+* Upgrade `org.openjax:jaxb:0.8.7` to `0.8.8`.
+* Updrage `org.openjax:esc:1.0.0` to `1.0.1`.
+* Upgrade `org.openjax:json:0.9.4` to `0.9.5`.
+* Upgrade `org.openjax:maven:0.4.3` to `0.4.4`.
+* Upgrade `org.openjax:measure:0.9.6` to `0.9.7`.
+* Upgrade `org.openjax:security:0.3.4` to `0.3.5`.
+* Upgrade `org.openjax:xml:0.9.5` to `0.9.6`.
 
 ## [v2.5.6](https://github.com/entinae/pom/compare/d644039964a5a59cb01770ebbb74a12f3f486180..d528383e37bb8bc56b37e165c1cb266f733b671e) (2023-09-20)
 * Upgrade `org.openjax:cdm:0.0.9` to `0.0.10`.
